@@ -92,7 +92,7 @@ const Register: React.FC = () => {
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold">Create an Account</CardTitle>
           <CardDescription>
-            Enter your information to register for ClassHub
+            Enter your information to register for Future Robins
           </CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit}>

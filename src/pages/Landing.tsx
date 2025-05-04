@@ -16,7 +16,7 @@ const Landing: React.FC = () => {
                 Education Management Made Simple
               </h1>
               <p className="text-xl text-blue-100 mb-8 max-w-lg">
-                ClassHub connects students, parents, and instructors in one 
+                Future Robins connects students, parents, and instructors in one 
                 powerful platform for seamless learning experiences.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -27,7 +27,7 @@ const Landing: React.FC = () => {
                   </Button>
                 </Link>
                 <Link to="/login">
-                  <Button size="lg" variant="outline" className="text-white border-white hover:bg-blue-700">
+                  <Button size="lg" variant="outline" className="text-blue-700 border-white hover:bg-blue-700 hover:text-white">
                     Log in
                   </Button>
                 </Link>
@@ -79,7 +79,7 @@ const Landing: React.FC = () => {
                 </li>
               </ul>
               <Link to="/register?role=student">
-                <Button variant="outline" className="w-full border-blue-500 text-blue-500 hover:bg-blue-50">
+                <Button variant="outline" className="w-full border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white">
                   Register as Student
                 </Button>
               </Link>
@@ -112,7 +112,7 @@ const Landing: React.FC = () => {
                 </li>
               </ul>
               <Link to="/register?role=parent">
-                <Button variant="outline" className="w-full border-purple-500 text-purple-500 hover:bg-purple-50">
+                <Button variant="outline" className="w-full border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white">
                   Register as Parent
                 </Button>
               </Link>
@@ -145,7 +145,7 @@ const Landing: React.FC = () => {
                 </li>
               </ul>
               <Link to="/register?role=instructor">
-                <Button variant="outline" className="w-full border-green-500 text-green-500 hover:bg-green-50">
+                <Button variant="outline" className="w-full border-green-500 text-green-500 hover:bg-green-500 hover:text-white">
                   Register as Instructor
                 </Button>
               </Link>
@@ -220,7 +220,7 @@ const Landing: React.FC = () => {
             Ready to transform your educational experience?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of students, parents, and instructors already using ClassHub to enhance their learning journey.
+            Join thousands of students, parents, and instructors already using Future Robins to enhance their learning journey.
           </p>
           <Link to="/register">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
